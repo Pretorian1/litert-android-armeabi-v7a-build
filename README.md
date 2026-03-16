@@ -315,8 +315,8 @@ app
 
 Example structure is shown in the image below.
 
-<!-- add screenshot here -->
 
+![Android jniLibs structure](libLiteRt.png)
 
 ---
 
