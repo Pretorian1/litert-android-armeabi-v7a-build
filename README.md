@@ -106,19 +106,19 @@ You have bazel 7.6.1 installed.
 Please specify the location of python.
 [Default is /home/<user_name>/anaconda3/bin/python3]:
 
-/<user_name>/bin/python3
+/usr/bin/python3
 
 
 Found possible Python library paths:
 
-/<user_name>/lib/python3/dist-packages
-/<user_name>/local/lib/python3.12/dist-packages
+/usr/lib/python3/dist-packages
+/usr/local/lib/python3.12/dist-packages
 
 Please input the desired Python library path to use.
 
-Default is [/<user_name>/lib/python3/dist-packages]
+Default is [/usr/lib/python3/dist-packages]
 
-/<user_name>/local/lib/python3.12/dist-packages
+/usr/local/lib/python3.12/dist-packages
 
 
 Do you wish to build TensorFlow with ROCm support? [y/N]:
@@ -187,9 +187,9 @@ After configuration, the following file will be created:
 Example content:
 
 ```
-build --action_env PYTHON_BIN_PATH="/<user_name>/bin/python3"
-build --action_env PYTHON_LIB_PATH="/<user_name>/local/lib/python3.12/dist-packages"
-build --python_path="/<user_name>/bin/python3"
+build --action_env PYTHON_BIN_PATH="/usr/bin/python3"
+build --action_env PYTHON_LIB_PATH="/usr/local/lib/python3.12/dist-packages"
+build --python_path="/usr/bin/python3"
 
 build --action_env CLANG_COMPILER_PATH="/home/<user_name>/android-sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-17"
 
